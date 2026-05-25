@@ -11,5 +11,11 @@ public class Main {
         Bebida b3 = new Calda(new Chantilly(new Espresso()));
         b3.imprimir();
 
+        Bebida b4 = new ChaPreto();
+        b4 = new Leite(b4);
+        b4 = new Chantilly(b4);
+        b4.imprimir();
+
+
     }
 }
